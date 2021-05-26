@@ -24,7 +24,7 @@ In each lesson, the following learning resources are available for each students
 
 ## Using the materials
 
-* Download the [gzipped tarball]() (make sure your OS doesn't gunzip it for you).
+* Download the [gzipped tarball](https://github.com/dezhidki/math-percent-edx-fi/archive/refs/tags/2021526.tar.gz) (make sure your OS doesn't gunzip it for you).
 * In Studio, create an empty course.
 * Under Tools, select Import and choose the downloaded, gzipped tarball.
 
