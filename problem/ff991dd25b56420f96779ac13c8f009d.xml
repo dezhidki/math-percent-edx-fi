@@ -1,0 +1,35 @@
+<problem display_name="Esitä prosenttiluvut desimaalilukuina" markdown="Tee tehtävä &lt;strong&gt;ilman laskinta&lt;/strong&gt;.&#10;&#10;&gt;&gt;(a) \( 3\ \% \)&lt;&lt;&#10;= 0.03&#10;&#10;&gt;&gt;(b) \( 10\ \% \)&lt;&lt;&#10;= 0.1&#10;&#10;&gt;&gt;(c) \( 25.1\ \% \)&lt;&lt;&#10;= 0.251&#10;&#10;&gt;&gt;(d) \( 47\ \% \)&lt;&lt;&#10;= 0.47&#10;&#10;&gt;&gt;(e) \( 85\ \% \)&lt;&lt;&#10;= 0.85&#10;&#10;&gt;&gt;(f) \( 253\ \% \)&lt;&lt;&#10;= 2.53&#10;&#10;&gt;&gt;(g) \( 0.1\ \% \)&lt;&lt;&#10;= 0.001&#10;&#10;||Prosenttiluvusta saatiin desimaaliluku jakamalla se sadalla||&#10;||Prosenttiluvusta saatiin desimaaliluku siirtämällä pilkkua kaksi askelta vasemmalle||">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <label>(a) \( 3\ \% \)</label>
+  <numericalresponse answer="0.03">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(b) \( 10\ \% \)</label>
+  <numericalresponse answer="0.1">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(c) \( 25.1\ \% \)</label>
+  <numericalresponse answer="0.251">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(d) \( 47\ \% \)</label>
+  <numericalresponse answer="0.47">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(e) \( 85\ \% \)</label>
+  <numericalresponse answer="0.85">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(f) \( 253\ \% \)</label>
+  <numericalresponse answer="2.53">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(g) \( 0.1\ \% \)</label>
+  <numericalresponse answer="0.001">
+    <formulaequationinput/>
+  </numericalresponse>
+  <demandhint>
+    <hint>Prosenttiluvusta saatiin desimaaliluku jakamalla se sadalla</hint>
+    <hint>Prosenttiluvusta saatiin desimaaliluku siirtämällä pilkkua kaksi askelta vasemmalle</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,24 @@
+<problem display_name="Geometriaa" markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <p>Neliön sivu kaksinkertaistuu.</p>
+  <label>Kuinka monta prosenttia uuden neliön pinta-ala on alkuperäisen neliön pinta-alasta?</label>
+  <numericalresponse answer="400">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>
+        Esimerkin kautta: Jos neliön sivu on \( 1 \), sen pinta-ala on \( 1 \cdot 1 = 1 \). Kaksinkertaistettu sivu on \( 2 \) ja pinta-ala tällöin \( 2 \cdot 2 = 4 \). Koska kysytään UUDEN neliön osuus vanhaan, perusarvona on vanhan neliön pinta-ala \( 1 \) ja osa on uuden neliön pinta-ala \( 4 \). Uuden neliön osuus on silloin \( \frac{4}{1} = 4 = 400\ \% \).
+      </p>
+        <p>
+        Yleinen tapa: Otetaan joku neliö ja merkitään sen sivuksi \( a \). Silloin sen pinta-ala on \( a \cdot a = a^2 \). Kaksinkertaistetun neliön sivu on \( 2a \) ja sen pinta-ala \( 2a \cdot 2a = (2 \cdot 2)(a \cdot a) = 4a^2 \). Uuden neliön osuus vanhasta on \( \frac{4a^2}{a^2} = 4 \frac{a^2}{a^2} = 4 = 400\ \% \).
+      </p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Ole tarkkana perusarvon kanssa! Minkä neliön osuus lasketaan mihin neliön osuuteen?</hint>
+    <hint>Muista: luvun \( a \) osuus luvusta \( b \) on \( \frac{a}{b} \).</hint>
+    <hint>Osuus voi olla yli 100 prosenttia, esimerkiksi jos osa on suurempi kuin perusarvo. On tulkinnasta kiinni, onko tulos järkevä...</hint>
+    <hint>Jos kirjainten pyörittely on vaikeaa, mieti esimerkin kautta: jos neliön sivun pituus on \( 1 \), mikä on tämän kaksinkertaisen neliön pinta-alan osuus alkuperäiseen neliöön?</hint>
+  </demandhint>
+</problem>

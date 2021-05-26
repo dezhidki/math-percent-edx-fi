@@ -1,0 +1,17 @@
+<problem display_name="Malmilohkare" markdown="null">
+  <numericalresponse answer="129">
+    <label>Malmilohkareen rautapitoisuus on \( 43\ \%\). Paljonko rautaa on \(300\  \textrm{kg}\) painavassa malmilohkareessa? </label>
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 43\ \% = 0.43 \). Lasku desimaaleina: \( 300\ \textrm{kg} \cdot 0.43 = 129\ \textrm{kg} \).</p>
+        <p>Murtolukuna \( 43\ \% = \frac{43}{100} \). Lasku murtolukuna: \( 300\ \textrm{kg} \cdot \frac{43}{100} = \frac{300\ \textrm{kg} \cdot 43}{100} = 43 \cdot \frac{300\ \textrm{kg}}{100} = 43 \cdot 3\ \textrm{kg} = 129\ \textrm{kg} \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun pitää laskea \( p\ \% \) jostakin perusarvosta, kerro perusarvo prosenttiluvun prosenttikertoimella (eli desimaaliluvulla tai murtoluvulla).</hint>
+    <hint>Asiaa voi ajatella välivaiheen kautta: Laske ensin, paljonko on yksi prosentti ja sen jälkeen kerro tulos prosenttiluvulla.</hint>
+    <hint>Muista, että murtolukujen nimittäjät voi siirrellä. Eli \( 300 \cdot \frac{43}{100} = \frac{300 \cdot 43}{100} = 43 \cdot \frac{300}{100} \)</hint>
+  </demandhint>
+</problem>

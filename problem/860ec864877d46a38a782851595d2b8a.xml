@@ -1,0 +1,14 @@
+<problem display_name="Koulu" markdown="null">
+  <numericalresponse answer="52">
+    <p>Vuodessa on \( 190 \) koulupäivää.</p>
+    <label>Kuinka monta prosenttia vuoden päivistä on koulupäiviä?</label>
+    <description>Ilmoita tulos pyöristettynä yksiköiden tarkkuudella.</description>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Vuodessa on yleensä 365 päivää. Vuoden kaikkien päivien lukumäärä on nyt perusarvo, sillä koulupäivien lukumäärä on osa. Osuus on siis \( \frac{190}{365} \), joka on prosentteina \( \frac{190}{365} = 0.52054\ldots \approx 52\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Vuodessa on monta päivää, mutta vain osa niistä on koulupäiviä. Perusarvo on siis vuoden kaikkien päivien lukumäärä.</hint>
+    <hint>Karkauspäiviä ei tässä tarvitse ottaa huomioon.</hint>
+    <hint>Muista: kun vastaus on prosenttiluku, lasku alkaa melkein aina jakolaskulla!</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,69 @@
+<problem display_name="Suora muunnos (100 %)" markdown="null">
+  <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+  <p>Paljonko on 100%</p>
+  <label>(a) 320 eurosta</label>
+  <numericalresponse answer="320">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 320\ € \cdot 1 = 320\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 320\ € \cdot \frac{100}{100} = 320\ € \cdot 1 = 320\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(b) 70 eurosta</label>
+  <numericalresponse answer="70">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 70\ € \cdot 1 = 70\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 70\ € \cdot \frac{100}{100} = 70\ € \cdot 1 = 70\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(c) 10 eurosta</label>
+  <numericalresponse answer="10">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 10\ € \cdot 1 = 10\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 10\ € \cdot \frac{100}{100} = 10\ € \cdot 1 = 10\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(d) 53 eurosta</label>
+  <numericalresponse answer="53">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 53\ € \cdot 1 = 53\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 53\ € \cdot \frac{100}{100} = 53\ € \cdot 1 = 53\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(e) 2000 eurosta</label>
+  <numericalresponse answer="2000">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 2000\ € \cdot 1 = 2000\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 2000\ € \cdot \frac{100}{100} = 2000\ € \cdot 1 = 2000\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(f) 345 eurosta</label>
+  <numericalresponse answer="345">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 100\ \% = 1.00 = 1 \). Lasku desimaaleina: \( 345\ € \cdot 1 = 345\ € \).</p>
+        <p>Murtolukuna \( 100\ \% = \frac{100}{100} = 1 \). Lasku murtolukuna: \( 345\ € \cdot \frac{100}{100} = 345\ € \cdot 1 = 345\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>\( 100\ \% \) on desimaalilukuna \( 1 \). Kun luku kerrotaan ykkösellä, vastauksena on luku itse.</hint>
+    <hint>Perusarvo on määritelmänä \( 100\ \% \).</hint>
+    <hint>Sata prosenttia perusarvosta on perusarvo itse.</hint>
+  </demandhint>
+</problem>

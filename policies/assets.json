@@ -1,0 +1,173 @@
+{
+    "Untitled.png": {
+        "contentType": "image/png",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "Untitled.png",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "Untitled.png",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@Untitled.png",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "JYU",
+            "MA8-K7",
+            "thumbnail",
+            "Untitled-png.jpg",
+            null
+        ]
+    },
+    "Verkehrsschild_Steigung.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "Verkehrsschild_Steigung.jpg",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "Verkehrsschild_Steigung.jpg",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@Verkehrsschild_Steigung.jpg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "JYU",
+            "MA8-K7",
+            "thumbnail",
+            "Verkehrsschild_Steigung.jpg",
+            null
+        ]
+    },
+    "normal.mp4": {
+        "contentType": "video/mp4",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "normal.mp4",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "normal.mp4",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@normal.mp4",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "parvo.svg": {
+        "contentType": "image/svg+xml",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "parvo.svg",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "parvo.svg",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@parvo.svg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "JYU",
+            "MA8-K7",
+            "thumbnail",
+            "parvo.svg",
+            null
+        ]
+    },
+    "percent-99376_1920.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "percent-99376_1920.jpg",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "percent-99376_1920.jpg",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@percent-99376_1920.jpg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "JYU",
+            "MA8-K7",
+            "thumbnail",
+            "percent-99376_1920.jpg",
+            null
+        ]
+    },
+    "prosentit.svg": {
+        "contentType": "image/svg+xml",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "prosentit.svg",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "prosentit.svg",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@prosentit.svg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "JYU",
+            "MA8-K7",
+            "thumbnail",
+            "prosentit.svg",
+            null
+        ]
+    },
+    "prosenttiarvo1.mp4": {
+        "contentType": "video/mp4",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "prosenttiarvo1.mp4",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "prosenttiarvo1.mp4",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@prosenttiarvo1.mp4",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "prosenttiarvo2.mp4": {
+        "contentType": "video/mp4",
+        "content_son": {
+            "category": "asset",
+            "course": "MA8-K7",
+            "name": "prosenttiarvo2.mp4",
+            "org": "JYU",
+            "revision": null,
+            "run": "2021K",
+            "tag": "c4x"
+        },
+        "displayname": "prosenttiarvo2.mp4",
+        "filename": "asset-v1:JYU+MA8-K7+2021K+type@asset+block@prosenttiarvo2.mp4",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": null
+    }
+}

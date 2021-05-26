@@ -1,0 +1,31 @@
+<problem display_name="Esitä desimaaliluvut prosenttilukuina." markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <label>(a) \( 0.14 \)</label>
+  <numericalresponse answer="14">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <label>(b) \( 0.03\)</label>
+  <numericalresponse answer="3">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <label>(c) \( 0.0042 \)</label>
+  <numericalresponse answer="0.42">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <label>(d) \( 2.05 \)</label>
+  <numericalresponse answer="205">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <label>(e) \( 0.38 \)</label>
+  <numericalresponse answer="38">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <label>(f) \( 0.024 \)</label>
+  <numericalresponse answer="2.4">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <demandhint>
+    <hint>Desimaaliluvusta saa prosenttiluku kertomalla se sadalla</hint>
+    <hint>Desimaaliluvusta saa prosenttiluku siirtämällä pilkkua kaksi askelta vasemmalle</hint>
+  </demandhint>
+</problem>

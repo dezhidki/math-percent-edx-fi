@@ -1,0 +1,238 @@
+<problem display_name="Yleiset ilmaisut" markdown="null">
+  <script>
+from fractions import gcd
+
+def test_frac(expect, ans, eps=0.0001):
+  ok = True
+  msg = 'Oikein!'
+  
+  if ok:
+    if '/' not in ans:
+      ok = False
+      msg = 'Murtoluvun on oltava muodossa a/b'
+  if ok:
+    parts = ans.split('/')
+    if len(parts) != 2:
+      ok = False
+      msg = 'Murtoluvun on oltava muodossa a/b'
+  if ok:
+    try:
+      p1 = int(parts[0])
+      p2 = int(parts[1])
+    except:
+      ok = False
+      msg = 'Käytä vain kokonaislukuja nimittäjässä tai osoittajassa!'
+  if ok:
+    if p2 == 0:
+      ok = False
+      msg = 'Nolla ei ole järkevä nimittäjä!'
+  if ok:
+    if gcd(p1, p2) != 1:
+      ok = False
+      msg = 'Murtolukua voi supistaa lisää!'
+  if ok:
+    if abs(p1/p2 - float(expect)) &gt; eps:
+      ok = False
+      msg = f'Väärin, tämä on nyt {p1/p2*100} %'
+  
+  return { 'ok': ok, 'msg': msg }
+
+
+def test_decimal(expect, ans, eps=0.01):
+  ok = True
+  msg = 'Oikein!'
+
+  if ok:
+    try:
+      n_ans = float(ans)
+    except ValueError:
+      ok = False
+      msg = 'Luvun on oltava desimaaliluku'
+  if ok:
+    if abs(n_ans - float(expect)) &gt; eps:
+      ok = False
+      msg = f'Väärin, tämä on nyt {n_ans*100} %'
+
+  return { 'ok': ok, 'msg': msg }
+  
+
+def test_percent(expect, ans, eps=1):
+  ok = True
+  msg = 'Oikein!'
+
+  if ok:
+    try:
+      n_ans = float(ans.replace("%", ""))
+    except ValueError:
+      ok = False
+      msg = 'Luvun on oltava desimaaliluku'
+  if ok:
+    if abs(n_ans - float(expect)*100) &gt; eps:
+      ok = False
+      msg = f'Väärin, tämä on nyt {n_ans} %'
+
+  return { 'ok': ok, 'msg': msg }
+
+
+EXPECT=[
+  0.1, #a
+  0.2, #b
+  0.01, #c
+  0.66666, #d
+  0.5, #e
+  0.5, #f
+  0.8, #g
+  0.3 #h
+]
+def test_mult_table(e, ans):
+  res = []
+  all_ok = True
+  tests = [ test_frac, test_decimal, test_percent ]
+  for i, v in enumerate(ans):
+    expect = EXPECT[i // 3]
+    test_res = tests[i % 3](expect, v)
+    all_ok = all_ok and test_res['ok']
+    res.append(test_res)
+  return {
+    'overall_message': 'Hyvä!' if all_ok else 'Vielä vähän korjattavaa!',
+    'input_list': res
+  }
+</script>
+  <p>Suomen kielessä on olemassa erilaisia ilmaisuja kuvailemaan murto- ja prosenttiosuuksia. Tunnistatko ne ja osaatko esittää tarkasti, mitä ne merkitsevät? Kirjoita seuraavat yleiset suomen kielen ilmaisut murto-, desimaali- ja prosenttilukuina.</p>
+  <p>Käytä merkintää <code>a/b</code> murtolukujen kirjoittamisessa. Käytä supistettuja murtolukuja.</p>
+  <customresponse cfn="test_mult_table" expect="20">
+    <style>
+      #taulu_t1 th {
+          text-align: center;
+      }
+      #taulu_t1 td {
+          text-align: center;
+      }
+      #taulu_t1 tr {
+          border-bottom: 1px solid black;
+      }
+      #taulu_t1 .tdh {
+      	background-color: #CCCCCC;
+        text-align: center;
+      border-right: 1px solid black;
+      }
+      #taulu_t1 .tdin input {
+          width: 50px;
+      }
+    </style>
+    <table id="taulu_t1">
+      <thead>
+        <tr>
+          <th>Ilmaisu</th>
+          <th>Murtoluku</th>
+          <th>Desimaaliluku</th>
+          <th>Prosenttiluku</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tdh">yksi neljästä</td>
+          <td>\( 1/4 \)</td>
+          <td>\( 0.25 \)</td>
+          <td>\( 25\ \% \)</td>
+        </tr>
+        <tr>
+          <td class="tdh">joka kymmenes</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">joka viides</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">joka sadas</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">kaksi kolmesta</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">joka toinen</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">puolet</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">neljä viidesosaa</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">kolme kymmenestä</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </customresponse>
+</problem>

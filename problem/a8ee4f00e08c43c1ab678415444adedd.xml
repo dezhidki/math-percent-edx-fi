@@ -1,0 +1,36 @@
+<problem display_name="Laske" markdown="null">
+  <label>(a) \( 30\ \% \) \( 60 \) grammasta</label>
+  <numericalresponse answer="18">
+    <formulaequationinput trailing_text="grammaa"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 30\ \% = 0.3 \). Lasku desimaaleina: \( 60\ \textrm{g} \cdot 0.3 = 18\ \textrm{g} \).</p>
+        <p>Murtolukuna \( 30\ \% = \frac{30}{100} \). Lasku murtolukuna: \( 60\ \textrm{g} \cdot 100\ \% = 60\ \textrm{g} \cdot \frac{30}{100} = \frac{60\ \textrm{g} \cdot 30}{100} = 18\ \textrm{g} \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(b) \( 72\ \% \) \( 250 \) eurosta</label>
+  <numericalresponse answer="180">
+    <formulaequationinput trailing_text="euroa"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 72\ \% = 0.72 \). Lasku desimaaleina: \( 250\ € \cdot 0.72 = 180\ € \).</p>
+        <p>Murtolukuna \( 72\ \% = \frac{72}{100} \). Lasku murtolukuna: \( 250\ € \cdot \frac{72}{100} = \frac{250\ € \cdot 72}{100} = \frac{250\ €}{100} \cdot 72 = 180\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(c) \( 15\ \% \) \( 6.0 \) grammasta</label>
+  <numericalresponse answer="0.9">
+    <formulaequationinput trailing_text="grammaa"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 15\ \% = 0.15 \). Lasku desimaaleina: \( 6.0\ \textrm{g} \cdot 0.15 = 0.9\ \textrm{g} \).</p>
+        <p>Murtolukuna \( 15\ \% = \frac{15}{100} \). Lasku murtolukuna: \( 6.0\ \textrm{g} \cdot \frac{15}{100} = \frac{6.0\ \textrm{g} \cdot 15}{100} = 0.9\ \textrm{g} \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun pitää laskea \( p\ \% \) jostakin perusarvosta, kerro perusarvo prosenttiluvun prosenttikertoimella (eli desimaaliluvulla tai murtoluvulla).</hint>
+    <hint>Joskus auttaa lasku välivaiheilla: laske ensin \( 1\ \% \) luvusta jakamalla se sadalla ja sitten kerro se prosenttiluvulla.</hint>
+  </demandhint>
+</problem>

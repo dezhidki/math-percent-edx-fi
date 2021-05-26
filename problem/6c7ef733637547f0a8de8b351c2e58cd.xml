@@ -1,0 +1,149 @@
+<problem display_name="Täydennä prosenttiluku- ja prosenttikerrointaulu" markdown="null">
+  <script>
+from fractions import gcd
+EXPECT=[
+  0.1,
+  0.2,
+  0.25,
+  0.50,
+  0.75,
+  1.0
+]
+def test_mult_table(e, ans):
+  res = []
+  all_ok = True
+  for i, v in enumerate(ans):
+    ok = '/' in v
+    whole = v.strip() == "1"
+    msg = 'Oikein!'
+    if not ok:
+      msg = 'Puuttuu murtolukumerkki /'
+    if ok:
+      parts = v.split('/')
+      if len(parts) != 2:
+        ok = False
+        msg = 'Oltava muodossa a/b'
+    if ok:
+      try:
+        p1 = int(parts[0])
+        p2 = int(parts[1])
+      except ValueError:
+        ok = False
+        msg = 'Käytä vain kokonaislukuja ja murtolukumerkkiä /'
+    if ok:
+      if i % 2 == 0 and p2 != 100:
+        ok = False
+        msg = 'Käytä sadasosia (eli nimittäjään 100)!'
+    if ok:
+      if i % 2 == 1 and gcd(p1, p2) != 1:
+        ok = False
+        msg = 'Supista murtoluku lisää!'
+    if ok:
+      correct = EXPECT[i // 2]
+      if p1/p2 != correct:
+        ok = False
+        msg = f'Väärin! Tämä on {p1/p2*100} %'
+    if whole and i%2 == 1 and EXPECT[i // 2] == 1:
+      ok = True
+      msg = 'Oikein!'
+    all_ok = all_ok and ok
+    res.append({ 'ok': ok, 'msg': msg })
+  return {
+    'overall_message': 'Hyvä!' if all_ok else 'Vielä vähän korjattavaa!',
+    'input_list': res
+  }
+</script>
+  <p>Käytä merkintää <code>a/b</code> murtolukujen kirjoittamisessa.</p>
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <customresponse cfn="test_mult_table" expect="20">
+    <style>
+      #taulu_t1 th {
+          text-align: center;
+      }
+      #taulu_t1 td {
+          text-align: center;
+      }
+      #taulu_t1 tr {
+          border-bottom: 1px solid black;
+      }
+      #taulu_t1 .tdh {
+      	background-color: #CCCCCC;
+        text-align: center;
+      border-right: 1px solid black;
+      }
+      #taulu_t1 .tdin input {
+          width: 50px;
+      }
+    </style>
+    <table id="taulu_t1">
+      <thead>
+        <tr>
+          <th>Prosenttiluku</th>
+          <th>Sadasosa</th>
+          <th>Supistettu murtoluku</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tdh">\( 5\ \% \)</td>
+          <td>\( 5/100 \)</td>
+          <td>\( 1/20 \)</td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 10\ \% \)</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 20\ \% \)</td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+          <td class="tdin">
+            <textline size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 25\ \% \)</td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+          <td class="tdin">
+            <textline size="40" correct_answer="9"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 50\ \% \)</td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 75\ \% \)</td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdh">\( 100\ \% \)</td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+          <td class="tdin">
+            <textline size="40"/>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </customresponse>
+</problem>

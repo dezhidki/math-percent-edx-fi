@@ -1,0 +1,14 @@
+<problem display_name="Virtaset" markdown="null">
+  <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+  <numericalresponse answer="275">
+    <p>Huonekaluliike vaatii käsirahan, joka on \(20\ \%\) kaikista ostoksista. Virtaset ostavat sohvan, jonka hinta on 1 085 € ja pöydän, jonka hinta on 290 €.</p>
+    <label>Paljonko heiltä peritään käsirahaa?</label>
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>Yhteensä Virtaset maksoivat \( 1085\ € + 290\ € = 1375\ € \). Siitä lasketaan \( 20\ \% = \frac{20}{100}^{(20} = \frac{1}{5} \) käsirahaa: \( 1375\ € \cdot \frac{1}{5} = \frac{1375\ €}{5} =  275\ €\).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Käsiraha maksetaan kaikista ostoksista. Paljonko Virtaset maksoivat yhteensä kaikesta?</hint>
+    <hint>Ajattele vaiheittain: paljonko on yksi prosentti koko ostoshinnasta? Paljonko on siinä tapauksessa 20 prosenttia?</hint>
+    <hint>Voit esittää prosenttiluku murtolukuna ja supistaa sopivasti, jotta saan yksinkertaisen jakolaskun aikaan.</hint>
+  </demandhint>
+</problem>

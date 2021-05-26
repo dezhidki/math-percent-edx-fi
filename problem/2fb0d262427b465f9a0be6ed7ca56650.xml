@@ -1,0 +1,50 @@
+<problem display_name="Käytännöllisiä muunnoksia" markdown="null">
+  <p>Montako prosenttia</p>
+  <label>(a) 350 grammaa on 15 kilogrammasta</label>
+  <numericalresponse answer="2">
+    <additional_answer answer="2.3"/>
+    <additional_answer answer="2.33"/>
+    <additional_answer answer="2.333"/>
+    <additional_answer answer="2.3333"/>
+    <additional_answer answer="2.33333"/>
+    <additional_answer answer="2.333333"/>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on 15 kilogrammaa, joka on 15000 grammaa. Osuus on tällöin \( \frac{350\ \textrm{g}}{150000\ \textrm{g}} = \frac{350}{15000} \). Tämä osuus prosentteina on \( \frac{350}{15000}^{(50} = \frac{7}{300} = 0.2333\ldots \approx 2\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(b) 20 euroa on 260 eurosta</label>
+  <numericalresponse answer="8">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="7.69"/>
+    <additional_answer answer="7.692"/>
+    <additional_answer answer="7.6923"/>
+    <additional_answer answer="7.69231"/>
+    <additional_answer answer="7.692308"/>
+    <correcthint>Perusarvo on 260 euroa. Osuus on tällöin \( \frac{20\ €}{260\ €} = \frac{20}{260} \). Tämä osuus prosentteina on \( \frac{20}{260}^{(20} = \frac{1}{13} = 0.076923\ldots \approx 8\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(c) 15 minuuttia on 3 tunnista</label>
+  <numericalresponse answer="8">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="8.3"/>
+    <additional_answer answer="8.33"/>
+    <additional_answer answer="8.333"/>
+    <additional_answer answer="8.3333"/>
+    <additional_answer answer="8.33333"/>
+    <additional_answer answer="8.333333"/>
+    <correcthint>Perusarvo on 3 tuntia, joka on 180 minuuttia. Osuus on tällöin \( \frac{15\ \textrm{min}}{180\ \textrm{min}} = \frac{15}{180} \). Tämä osuus prosentteina on \( \frac{15}{180}^{(15} = \frac{1}{12} = 0.08333\ldots \approx 8\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(d) 80 senttiä on 20 eurosta</label>
+  <numericalresponse answer="4">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on 20 euroa, joka on 2000 senttiä. Osuus on tällöin \( \frac{80\ \textrm{snt}}{2000\ \textrm{snt}} = \frac{80}{2000} \). Tämä osuus prosentteina on \( \frac{80}{2000}^{(80} = \frac{1}{25} = \mkern-18mu\phantom{\frac{a}{b}}^{4)}\frac{1}{25} = \frac{4}{100} = 4\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(e) 56 senttimetriä on 3.2 metristä</label>
+  <numericalresponse answer="18">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="17.5"/>
+    <correcthint>Perusarvo on 3.2 metriä, joka on 320 senttimetriä. Osuus on tällöin \( \frac{56\ \textrm{cm}}{320\ \textrm{cm}} = \frac{56}{320} \). Tämä osuus prosentteina on \( \frac{56}{320}^{(8} = \frac{7}{40} = 0.175\ldots \approx 18\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tässä kannattaa käyttää laskinta.</hint>
+    <hint>Muista ensin muuttaa yksiköt samoiksi perusarvolle ja osalle!</hint>
+  </demandhint>
+</problem>

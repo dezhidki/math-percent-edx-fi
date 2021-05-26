@@ -1,0 +1,38 @@
+<problem display_name="Laske" markdown="null">
+  <label>(a) \( 450\ \% \) \( 8.0 \) litrasta</label>
+  <numericalresponse answer="36">
+    <formulaequationinput trailing_text="litraa"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 450\ \% = 4.50 \). Lasku desimaaleina: \( 8.0\ \textrm{l} \cdot 4.5 = 36\ \textrm{l} \).</p>
+        <p>Murtolukuna \( 450\ \% = \frac{450}{100} \). Lasku murtolukuna: \( 8.0\ \textrm{l} \cdot \frac{450}{100} = \frac{8.0\ \textrm{l} \cdot 450}{100} = 36\ \textrm{l} \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(b) \( 2.4\ \% \) \( 6000 \) eurosta</label>
+  <numericalresponse answer="144">
+    <formulaequationinput trailing_text="euroa"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 2.4\ \% = 0.024 \). Lasku desimaaleina: \( 6000\ € \cdot 0.024 = 144\ € \).</p>
+        <p>Murtolukuna \( 2.4\ \% = \frac{2.4}{100} = \frac{24}{1000} \). Lasku murtolukuna: \( 6000\ € \cdot \frac{2.4}{100} = 6000\ € \cdot \frac{24}{1000} = \frac{6000\ € \cdot 24}{1000} = 144\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(c) \( 0.8\ \% \) \( 5 \) kilometristä. Ilmoita vastaus metreinä!</label>
+  <numericalresponse answer="40">
+    <formulaequationinput trailing_text="metriä"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>5 kilometriä on 5000 metriä.</p>
+        <p>Desimaalilukuna \( 0.8\ \% = 0.008 \). Lasku desimaaleina: \( 5000\ \textrm{m} \cdot 0.008 = 40\ \textrm{m} \).</p>
+        <p>Murtolukuna \( 0.8\ \% = \frac{0.8}{100} = \frac{8}{1000} \). Lasku murtolukuna: \( 5000\ \textrm{m} \cdot \frac{0.8}{100} = 5000\ \textrm{m} \cdot \frac{8}{1000} = \frac{5000\ \textrm{m} \cdot 8}{1000} = 40\ \textrm{m} \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun pitää laskea \( p\ \% \) jostakin perusarvosta, kerro perusarvo prosenttiluvun prosenttikertoimella (eli desimaaliluvulla tai murtoluvulla).</hint>
+    <hint>Muista, että voit laventaa murtolukuja. Esimerkiksi \( 0.1\ \% = \frac{0.1}{100} = \mkern-18mu\phantom{\frac{a}{b}}^{10)}\frac{0.1}{100} = \frac{1}{1000} \).</hint>
+    <hint>Joskus auttaa lasku välivaiheilla: laske ensin \( 1\ \% \) luvusta jakamalla se sadalla ja sitten kerro se prosenttiluvulla.</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,16 @@
+<vertical display_name="Tehtävät">
+  <html url_name="9b6003a41723444fbe7c2a4828f30728"/>
+  <html url_name="9121f2b9600b440998585739e76685be"/>
+  <html url_name="0c7eec3c95374cd191fca4ae44165359"/>
+  <edx_sga url_name="8efeb5a37e394b7a88d07386eae95fec" xblock-family="xblock.v1" display_name="Tehtävän 1 palautuslaatikko" showanswer="never">
+    <solution/>
+  </edx_sga>
+  <html url_name="c861fc24002f49dc985ac7684e1a22a6"/>
+  <edx_sga url_name="960fcd670d5b43459c78ef4df49055a0" xblock-family="xblock.v1" display_name="Tehtävän 2 palautuslaatikko" showanswer="never"/>
+  <html url_name="f1bfd56ce49e491fa02ad312b4070ab0"/>
+  <edx_sga url_name="d735d3ae54224a8b80ab088fe5d18bc2" xblock-family="xblock.v1" display_name="Tehtävän 3 palautuslaatikko" showanswer="never"/>
+  <html url_name="8913a43758074f93843829f5b78c1d80"/>
+  <edx_sga url_name="dc3be42434cb476091d2042503684dad" xblock-family="xblock.v1" display_name="Tehtävän 4 palautuslaatikko"/>
+  <html url_name="88ddc7c93a724ab0bcacd14f6cda4086"/>
+  <edx_sga url_name="1e058b559b3646ddb05ef526054e0718" xblock-family="xblock.v1" display_name="Tehtävän 5 palautuslaatikko"/>
+</vertical>

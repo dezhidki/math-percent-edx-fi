@@ -1,0 +1,58 @@
+<problem display_name="Maitotilastoja" markdown="null">
+  <numericalresponse answer="0.7">
+    <p>
+    Alla on taulukko kevytmaidon ravintosisällöstä \( 100 \ \textrm{g}\) kohti.
+  </p>
+    <table>
+      <tbody>
+        <tr style="font-weight: bold;">
+          <td colspan="2">Kevytmaito</td>
+        </tr>
+        <tr style="font-weight: bold;">
+          <td>Ravintosisältö</td>
+          <td>(\( 100\ \textrm{g} \):ssa)</td>
+        </tr>
+        <tr>
+          <td>energiapitoisuus</td>
+          <td>\( 190\ \textrm{kJ} \)</td>
+        </tr>
+        <tr>
+          <td>proteiinia</td>
+          <td>\( 3.2\ \textrm{g} \)</td>
+        </tr>
+        <tr>
+          <td>hiilihydraatteja</td>
+          <td>\( 4.8\ \textrm{g} \)</td>
+        </tr>
+        <tr>
+          <td>rasvaa</td>
+          <td>\( 1.5\ \textrm{g} \)</td>
+        </tr>
+        <tr style="height: 3em; font-weight: bold;">
+          <td style="vertical-align: bottom;" colspan="2">Kivennäisaineet (\( 100\ \textrm{g} \):ssa)</td>
+        </tr>
+        <tr>
+          <td>kalsium (\( \textrm{Ca} \))</td>
+          <td>\( 120\ \textrm{mg} \)*</td>
+        </tr>
+        <tr style="font-size: 0.8em; font-style: italic;">
+          <td colspan="2">* \( 15\ \%\) päivän saantisuosituksesta</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+  	Tarvitset päivässä keskimäärin \(0.8\) grammaa kalsiumia.
+  </p>
+    <label>Kuinka monta litraa sinun on juotava kevytmaitoa saadaksesi koko päivän kalsiumtarpeesi?</label>
+    <description>Kevytmaidon tiheys on \( 1.0\ \textrm{kg}/\textrm{dm}^3 \)</description>
+    <additional_answer answer="0.67"/>
+    <additional_answer answer="0.667"/>
+    <additional_answer answer="0.6667"/>
+    <additional_answer answer="0.66667"/>
+    <additional_answer answer="0.666667"/>
+    <additional_answer answer="0.6666667"/>
+    <additional_answer answer="0.66666667"/>
+    <formulaequationinput trailing_text="litraa"/>
+    <correcthint>Taulukon mukaan \( 100 \) grammassa maitoa on \( 15\ \% \) kalsiumin saantisuosituksesta. Jakamalla kummatkin luvulla 15 saadaan, että \( \frac{100}{15} = 6.666\ldots \) grammassa maitoa on \( \frac{15\ \% }{15} = 1\ \% \) klasiumin saantisuosituksesta. Kertomalla sadalla saadaan, että \( 666.66\ldots \approx 700 \) grammassa maitoa on \( 100\ \% \) päivän saantisuosituksesta. Maidon tiheys on \( 1\textrm{kg}/\textrm{l} \) eli 700 grammaa vastaa 0.7 litraa.</correcthint>
+  </numericalresponse>
+</problem>

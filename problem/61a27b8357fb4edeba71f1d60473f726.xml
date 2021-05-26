@@ -1,0 +1,10 @@
+<problem display_name="Montako prosenttia luokkasi oppilaista on" markdown="&gt;&gt;(a) tyttöjä&lt;&lt;&#10;= [0, 100]&#10;&#10;&gt;&gt;(b) poikia?&lt;&lt;&#10;= [0, 100]&#10;">
+  <label>(a) tyttöjä</label>
+  <numericalresponse answer="[0, 100]">
+    <formulaequationinput/>
+  </numericalresponse>
+  <label>(b) poikia?</label>
+  <numericalresponse answer="[0, 100]">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

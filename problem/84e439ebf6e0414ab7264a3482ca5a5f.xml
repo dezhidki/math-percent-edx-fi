@@ -1,0 +1,29 @@
+<problem display_name="Kirjoita..." markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <numericalresponse answer="0.213">
+    <label>(a) prosenttiluku \( 21.3\ \% \) desimaalilukuna</label>
+    <formulaequationinput/>
+    <correcthint>Jaetaan sadalla siirtämällä pistettä kaksi askelta vasemmalle: \( 21.3 \div 100 = 0.213 \).</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="10.1">
+    <label>(b) desimaaliluku \( 0.101 \) prosenttilukuna</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kerrotaan sadalla siirtämällä pistettä kaksi askelta oikealle: \( 0.101 \cdot 100\ \% = 10.1\ \% \).</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="110">
+    <label>(c) desimaaliluku \( 1.11 \) prosenttilukuna</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kerrotaan sadalla siirtämällä pistettä kaksi askelta oikealle: \( 1.11 \cdot 100\ \% = 111\ \% \).</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="0.0001">
+    <label>(d) prosenttiluku \( 0.01\ \% \) desimaalilukuna</label>
+    <formulaequationinput/>
+    <correcthint>Jaetaan sadalla siirtämällä pistettä kaksi askelta vasemmalle: \( 0.01 \div 100 = 0.0001 \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Desimaaliluku eli <i>prosenttikerroin</i> voi muttaa prosenttiluvuksi kertomalla se sadalla.</hint>
+    <hint>Prosenttiluku muttaa desimaaliluvuksi jakamalla se sadalla.</hint>
+    <hint>Toinen tapa muuttaa prosenttikerroin prosenttiluvuksi on "siirtää pilkku oikealle" kaksi kertaa.</hint>
+    <hint>Toinen tapa muuttaa prosenttiluvuku prosenttikertoimeksi on "siirtää pilkku vasemmalle" kaksi kertaa.</hint>
+  </demandhint>
+</problem>

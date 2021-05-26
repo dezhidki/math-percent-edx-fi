@@ -1,0 +1,14 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 2,
+            "min_count": 12,
+            "short_label": "AT",
+            "type": "Arvioitavat teht\u00e4v\u00e4t",
+            "weight": 1.0
+        }
+    ],
+    "GRADE_CUTOFFS": {
+        "Pass": 0.11
+    }
+}

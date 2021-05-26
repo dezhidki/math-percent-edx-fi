@@ -1,0 +1,37 @@
+<problem display_name="Kirjoita prosenttiluvut desimaalilukuna" markdown="Tee tehtävä &lt;strong&gt;ilman laskinta&lt;/strong&gt;.&#10;&#10;&gt;&gt;(a) \( 10\ \% \)&lt;&lt;&#10;= 0.1 {{ \( \frac{10}{100} = 0.10 = 0.1 \) }}&#10;&#10;&gt;&gt;(b) \( 45\ \% \)&lt;&lt;&#10;= 0.45 {{ \( \frac{45}{100} = 0.45 \) }}&#10;&#10;&gt;&gt;(c) \( 80\ \% \)&lt;&lt;&#10;= 0.8 {{ \( \frac{80}{100} = 0.80 \) }}&#10;&#10;&gt;&gt;(d) \( 1.5\ \% \)&lt;&lt;&#10;= 0.015 {{ \( \frac{1.5}{100} = \frac{15}{1000} = 0.015 \) }}&#10;&#10;&gt;&gt;(e) \( 0.2\ \% \)&lt;&lt;&#10;= 0.002 {{ \( \frac{0.2}{100} = \frac{2}{1000} = 0.002 \) }}&#10;&#10;&gt;&gt;(f) \( 125\ \% \)&lt;&lt;&#10;= 1.25 {{ \( \frac{125}{100} = 1.25 \) }}&#10;&#10;||Prosenttiluvusta saatiin desimaaliluku jakamalla se sadalla.||&#10;||Prosenttiluku voi muuntaa desimaaliluvuksi myös &quot;siirtämällä pilkku vasemmalle&quot; kaksi kertaa.||">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <label>(a) \( 10\ \% \)</label>
+  <numericalresponse answer="0.1">
+    <formulaequationinput/>
+    <correcthint>\( \frac{10}{100} = 0.10 = 0.1 \)</correcthint>
+  </numericalresponse>
+  <label>(b) \( 45\ \% \)</label>
+  <numericalresponse answer="0.45">
+    <formulaequationinput/>
+    <correcthint>\( \frac{45}{100} = 0.45 \)</correcthint>
+  </numericalresponse>
+  <label>(c) \( 80\ \% \)</label>
+  <numericalresponse answer="0.8">
+    <formulaequationinput/>
+    <correcthint>\( \frac{80}{100} = 0.80 \)</correcthint>
+  </numericalresponse>
+  <label>(d) \( 1.5\ \% \)</label>
+  <numericalresponse answer="0.015">
+    <formulaequationinput/>
+    <correcthint>\( \frac{1.5}{100} = \frac{15}{1000} = 0.015 \)</correcthint>
+  </numericalresponse>
+  <label>(e) \( 0.2\ \% \)</label>
+  <numericalresponse answer="0.002">
+    <formulaequationinput/>
+    <correcthint>\( \frac{0.2}{100} = \frac{2}{1000} = 0.002 \)</correcthint>
+  </numericalresponse>
+  <label>(f) \( 125\ \% \)</label>
+  <numericalresponse answer="1.25">
+    <formulaequationinput/>
+    <correcthint>\( \frac{125}{100} = 1.25 \)</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Prosenttiluvusta saatiin desimaaliluku jakamalla se sadalla.</hint>
+    <hint>Prosenttiluku voi muuntaa desimaaliluvuksi myös "siirtämällä pilkku vasemmalle" kaksi kertaa.</hint>
+  </demandhint>
+</problem>

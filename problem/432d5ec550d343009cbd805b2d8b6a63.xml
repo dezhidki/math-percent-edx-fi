@@ -1,0 +1,41 @@
+<problem display_name="Ihmisen vesipitoisuus" markdown="null">
+  <p>Ihmisen kehossa on vettä keskimäärin \( 64\ \%\). Montako kilogrammaa on vettä henkilössä, joka painaa</p>
+  <label>(a) \( 49\ \textrm{kg} \)</label>
+  <numericalresponse answer="31.36">
+    <responseparam type="tolerance" default="2%"/>
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+    <additional_answer answer="31"/>
+    <additional_answer answer="31.4"/>
+    <correcthint>Desimaalilukuna \( 64\ \% = 0.64 \). Tällöin \( 49\ \textrm{kg} \cdot 0.64 = 31.36\ \textrm{kg} \approx 31.4\ \textrm{kg} \).</correcthint>
+  </numericalresponse>
+  <label>(b) \( 65\ \textrm{kg} \)</label>
+  <numericalresponse answer="41.6">
+    <responseparam type="tolerance" default="2%"/>
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+    <additional_answer answer="42"/>
+    <correcthint>Desimaalilukuna \( 64\ \% = 0.64 \). Tällöin \( 65\ \textrm{kg} \cdot 0.64 = 41.6\ \textrm{kg} \).</correcthint>
+  </numericalresponse>
+  <label>(c) \( 82\ \textrm{kg} \)</label>
+  <numericalresponse answer="52.48">
+    <responseparam type="tolerance" default="2%"/>
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+    <additional_answer answer="52"/>
+    <additional_answer answer="52.5"/>
+    <correcthint>Desimaalilukuna \( 64\ \% = 0.64 \). Tällöin \( 82\ \textrm{kg} \cdot 0.64 = 52.5\ \textrm{kg} \approx 52.5\ \textrm{kg} \).</correcthint>
+  </numericalresponse>
+  <label>(d) \( 110\ \textrm{kg} \)</label>
+  <numericalresponse answer="70.4">
+    <responseparam type="tolerance" default="2%"/>
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+    <additional_answer answer="70"/>
+    <correcthint>Desimaalilukuna \( 64\ \% = 0.64 \). Tällöin \( 110\ \textrm{kg} \cdot 0.64 = 70.4\ \textrm{kg} \).</correcthint>
+  </numericalresponse>
+  <label>Laske myös, montako kilogrammmaa sinussa on vettä.</label>
+  <numericalresponse answer="[0, 999)">
+    <formulaequationinput trailing_text="\(\textrm{kg}\)"/>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tässä kannattaa käyttää laskinta.</hint>
+    <hint>Kun pitää laskea \( p\ \% \) jostakin perusarvosta, kerro perusarvo prosenttiluvun prosenttikertoimella (eli desimaaliluvulla tai murtoluvulla).</hint>
+  </demandhint>
+</problem>

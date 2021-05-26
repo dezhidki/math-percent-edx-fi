@@ -1,0 +1,29 @@
+<problem display_name="Osuudet 2" markdown="null">
+  <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+  <p>Kuinka monta prosettia</p>
+  <label>(a) viisi on sadasta</label>
+  <numericalresponse answer="5">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on nyt sata, eli osuus murtolukuna on \( \frac{5}{100} \). Tämä prosentteina on selvästikin \( 5\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(b) \( 12\ \textrm{cm}\) on metristä</label>
+  <numericalresponse answer="12">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on metri. Metrissä on 100 senttimetriä. Osuus on siis murtolukuna \( \frac{12\ \textrm{cm}}{100\ \textrm{cm}} = \frac{12}{100} \). Tämä prosentteina on selvästi \( 12\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(c) \( 350\ \textrm{g} \) on kilosta</label>
+  <numericalresponse answer="35">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on kilogramma. Kilogrammassa on 1000 grammaa. Osuus on siis murtolukuna \( \frac{350\ \textrm{g}}{1000\ \textrm{g}} = \frac{350}{1000} \). Tämä prosentteina on \( \frac{350}{1000}^{(10} = \frac{35}{100} = 35\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(d) \( 4\ \textrm{dl} \) on litrasta?</label>
+  <numericalresponse answer="40">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on litra. Litrassa on 10 desilitraa. Osuus on siis murtolukuna on \( \frac{4\ \textrm{dl}}{10\ \textrm{dl}} = \frac{4}{10} \). Tämä prosentteina on \( \mkern-18mu\phantom{\frac{a}{b}}^{10)}\frac{4}{10} = \frac{40}{100} = 40\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun vastaus on prosenttiluku, lasku on melkein aina jakolasku muotoa \( \frac{\textrm{osa}}{\textrm{perusosa}} \).</hint>
+    <hint>Mikä on tässä perusarvo? Se on luku, josta osuus lasketaan. Entä mikä on osa?</hint>
+    <hint>Nyt perusarvo saattaa olla eri yksikössä kuin osa. Kummatkin pitää muuntaa samaan yksikköön ennen laskemista.</hint>
+  </demandhint>
+</problem>

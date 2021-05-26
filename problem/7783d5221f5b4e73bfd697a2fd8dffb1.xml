@@ -1,0 +1,12 @@
+<problem display_name="Kaksio" markdown="null">
+  <numericalresponse answer="9">
+    <p>Kaksion pinta-ala on \( 60\ \textrm{m}^2 \). Makuuhuoneen ja olohuoneen osuus on \( 70\ \% \).</p>
+    <label>Kuinka monta neliömetriä on keittiön pinta-ala, kun se on puolet muusta asunnosta?</label>
+    <formulaequationinput trailing_text="\(\textrm{m}^2\)"/>
+    <correcthint>Tehdään päättely ensin prosentteina: Koko kaksion pinta-ala vastaa \( 100\ \% \). Muu osa asunnosta (eli muu kuin makuuhuone ja olohuone) vastaa \( 100\ \% - 70\ \% = 30\ \% \). Siitä puolet on \( 15\ \% \), eli keittiön pinta-ala. Siis \( 15\ \% \) koko pinta-alasta on \( 60\ \textrm{m}^2 \cdot \frac{15}{100}^{(5} = 60\ \textrm{m}^2 \cdot \frac{3}{20} = 3 \cdot \frac{60\ \textrm{m}^2}{20} = 3 \cdot 3\ \textrm{m}^2 = 9\ \textrm{m}^2 \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Voit ensin miettiä asiaa prosenttien kautta ennen laskuja. Koko kaksion pinta-alaa vastaa \( 100\ \% \). Paljonko on silloin muun asunnon osuus prosentteina? Paljonko siitä on keittiön pinta-ala prosentteina?</hint>
+    <hint>Muista, että voit esittää prosenttiluvut murtolukuina tai desimaalilukuina.</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,27 @@
+<problem display_name="Kirjoita desimaaliluvut prosenttilukuina" markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <numericalresponse answer="20">
+    <label>(a) \( 0.2 \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( 0.2 \cdot 100\ \% = 20\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="8">
+    <label>(b) \( 0.08 \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( 0.08 \cdot 100\ \% = 8\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="73">
+    <label>(c) \( 0.73 \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( 0.73 \cdot 100\ \% = 73\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="5">
+    <label>(d) \( 0.05 \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( 0.05 \cdot 100\ \% = 5\ \%\)</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Desimaaliluku eli <i>prosenttikerroin</i> voi muttaa prosenttiluvuksi kertomalla se sadalla.</hint>
+    <hint>Toinen tapa muuttaa prosenttikerroin prosenttiluvuksi on "siirtää pilkku oikealle" kaksi kertaa.</hint>
+  </demandhint>
+</problem>

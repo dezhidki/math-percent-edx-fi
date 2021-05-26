@@ -1,0 +1,81 @@
+<problem display_name="Ilmoita supistettuna murtolukuna" markdown="null">
+  <p>Kirjoita vastaus muodossa <code>a/b</code>.</p>
+  <script type="loncapa/python">
+from fractions import gcd
+EPS = 0.0001
+def test_murto(expect, ans):
+  ok = True
+  expect_percent = int(float(expect)*100)
+  smol_factor = gcd(expect_percent, 100)
+  if smol_factor &gt; 1:
+    smol_nom = expect_percent // smol_factor
+    smol_denom = 100 // smol_factor
+    msg = f'Oikein: \\({expect_percent}\\ \\% = \\frac{{{expect_percent}}}{{100}} = \\frac{{{expect_percent}}}{{100}}^{{({smol_factor}}} = \\frac{{{smol_nom}}}{{{smol_denom}}} \\)'
+  else:
+  	msg = f'Oikein: \\({expect_percent}\\ \\% = \\frac{{{expect_percent}}}{{100}} \\), ei voi supistaa enempää.'
+  
+  if ok:
+    if '/' not in ans:
+      ok = False
+      msg = 'Murtoluvun on oltava muodossa a/b'
+  if ok:
+    parts = ans.split('/')
+    if len(parts) != 2:
+      ok = False
+      msg = 'Murtoluvun on oltava muodossa a/b'
+  if ok:
+    try:
+      p1 = int(parts[0])
+      p2 = int(parts[1])
+    except ValueError:
+      ok = False
+      msg = 'Käytä vain kokonaislukuja nimittäjässä tai osoittajassa!'
+  if ok:
+    if p2 == 0:
+      ok = False
+      msg = 'Nolla ei ole järkevä nimittäjä!'
+  if ok:
+    if gcd(p1, p2) != 1:
+      ok = False
+      msg = 'Murtolukua voi supistaa lisää!'
+  if ok:
+    if abs(p1/p2 - float(expect)) &gt; EPS:
+      ok = False
+      msg = f'Väärin, tämä on nyt {p1/p2*100} %'
+  
+  return {
+    'overall_message': 'Hyvä!' if ok else 'Mieti tätä lisää.',
+    'input_list': [
+      { 'ok': ok, 'msg': msg }
+    ]
+  }
+</script>
+  <p>(a) \( 18\ \% \)</p>
+  <customresponse cfn="test_murto" expect="0.18">
+    <textline size="10"/>
+  </customresponse>
+  <p>(b) \( 45\ \% \)</p>
+  <customresponse cfn="test_murto" expect="0.45">
+    <textline size="10"/>
+  </customresponse>
+  <p>(c) \( 90\ \% \)</p>
+  <customresponse cfn="test_murto" expect="0.9">
+    <textline size="10"/>
+  </customresponse>
+  <p>(d) \( 3\ \% \)</p>
+  <customresponse cfn="test_murto" expect="0.03">
+    <textline size="10"/>
+  </customresponse>
+  <p>(d) \( 47\ \% \)</p>
+  <customresponse cfn="test_murto" expect="0.47">
+    <textline size="10"/>
+  </customresponse>
+  <p>(e) \( 250\ \% \)</p>
+  <customresponse cfn="test_murto" expect="2.5">
+    <textline size="10"/>
+  </customresponse>
+  <demandhint>
+    <hint>Esitä prosenttiluku ensin sadasosina ja supista, jos mahdollista</hint>
+    <hint>Voit supistaa useamman kerran kunnes enää ei voi supistaa</hint>
+  </demandhint>
+</problem>

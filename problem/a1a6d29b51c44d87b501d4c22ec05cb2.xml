@@ -1,0 +1,12 @@
+<problem display_name="Autokauppias" markdown="null">
+  <p>Autokauppias myi auton 41 600 eurolla. Palkkiona hän sai itse 624 euroa.</p>
+  <label>Montako prosenttia palkkio on myyntihinnasta?</label>
+  <numericalresponse answer="1.5">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Autokauppias sai palkkiona osuuden auton hinnasta. Perusarvona on siis auton hinta ja osa on palkkio. Palkkion osuus on siis \( \frac{624\ €}{41600\ €} \), joka on prosentteina \( \frac{624}{41600} = 0.015 = 1.5\ \% \)</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun pitää laskea prosenttiluku, laskuna on melkein aina jakolasku!</hint>
+    <hint>Määritä ensin osuus murtolukuna muodossa \( \frac{\textrm{osa}}{\textrm{perusarvo}} \).</hint>
+  </demandhint>
+</problem>

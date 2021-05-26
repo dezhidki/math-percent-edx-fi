@@ -1,0 +1,13 @@
+<problem display_name="Öljysäiliö" markdown="null">
+  <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+  <numericalresponse answer="2200">
+    <p>4000 litran öljysäiliössä on öljyä \( 45\ \%\) säiliön tilavuudesta.</p>
+    <label>Kuinka monta litraa säiliöön vielä mahtuisi öljyä?</label>
+    <formulaequationinput trailing_text="litraa"/>
+    <correcthint>Koko säiliön tilavuus prosentteina on \( 100\ \% \). Koska siitä 45 prosenttia on jo täytettynä, säiliöön mahtuisi öljyä \( 100\ \% - 45\ \% = 55\ \% \) öljyn tilavuudesta. Koko säiliön tilavuudesta yksi prosentti vastaa \( \frac{4000}{100} = 40 \) litraa. Silloin 55 prosenttia tilavuudesta on \( 40 \cdot 55 = 2200 \) litraa.</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Perusarvo vastaa aina \( 100\ \% \). Jos säiliöstä on 45 prosenttia on täytettynä, montako prosenttia on tyhjää?</hint>
+    <hint>Voit miettiä vaiheittain: paljonko on yksi prosentti 4000 litrasta? Miten yhdestä prosentista saa kymmenen tai kaksikymmentä?</hint>
+  </demandhint>
+</problem>

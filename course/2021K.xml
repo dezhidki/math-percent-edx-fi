@@ -1,0 +1,7 @@
+<course advanced_modules="[&quot;edx_sga&quot;]" allow_anonymous="false" cert_html_view_enabled="true" course_image="Untitled.png" display_name="Prosenttilaskennan perusteet" edxnotes="true" graceperiod="43200 seconds" instructor_info="{&quot;instructors&quot;: []}" invitation_only="true" language="fi" learning_info="[]" minimum_grade_credit="0.8" mobile_available="true" show_calculator="true" start="&quot;2021-01-01T00:00:00+00:00&quot;">
+  <chapter url_name="744c460e615b43b8924c238e5b0f7bf3"/>
+  <chapter url_name="5b31180effdf4ced8a6ebbcf59257d58"/>
+  <chapter url_name="a577687b7f1f4b20801b4a41ee426d2a"/>
+  <chapter url_name="9db72d82a50842f693a6d93f27f6471c"/>
+  <wiki slug="JYU.MA8-K7.2021K"/>
+</course>

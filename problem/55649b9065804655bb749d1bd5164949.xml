@@ -1,0 +1,34 @@
+<problem display_name="Ulkopelitapahtuna" markdown="null">
+  <p>Koulun järjestämään ulkopelitapahtumaan osallistui \( 73 \) lasta.</p>
+  <p>Kaikista lapsista</p>
+  <ul>
+    <li>alle 4-vuotiaita oli 10,</li>
+    <li>5–6-vuotiaita oli 15,</li>
+    <li>7–8-vuotiaita oli 20 ja</li>
+    <li>loput yli 8-vuotiaita.</li>
+  </ul>
+  <p>Kuinka monta prosenttia lapsista oli</p>
+  <numericalresponse answer="14">
+    <label>(a) alle 4-vuotiaita</label>
+    <additional_answer answer="13.7"/>
+    <additional_answer answer="13.6986"/>
+    <additional_answer answer="13.69863"/>
+    <additional_answer answer="13.698630"/>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on kaikkien lasten lukumäärä. Alle 4-vuotiaat ovat osa, joten osuus on \( \frac{10}{73} \). Tämä osuus prosentteina on siis \( 0.13698\ldots \approx 14\ \% \).</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="66">
+    <label>(b) yli 6-vuotiaita?</label>
+    <additional_answer answer="66.575"/>
+    <additional_answer answer="66.5753"/>
+    <additional_answer answer="66.57534"/>
+    <additional_answer answer="66.575342"/>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on kaikkien lasten lukumäärä. Yli 6-vuotiaita on 7–8-vuotiaita ja yli 8-vuotiaita, eli ne ovat osa. Yli 8-vuotiaita on \( 73 - 10 - 15 - 20 = 28 \), joten yli 6-vuotaita on \( 20 + 28 = 48 \). Osuus on silloin \( \frac{48}{73} \). Tämä osuus prosentteina on siis \( \frac{48}{73} = 0.65753\ldots \approx 66\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Taas, selvitä ensin perusarvo. Mistä osuudet aloitetaan laskea?</hint>
+    <hint>Katso tarkasti, mikä on osa. Saatat joutua laskemaan osan ennen murtoluvun kirjoittamista.</hint>
+    <hint>Loppujuen lopuksi, kyse taas osuuden kirjoittamisesta murtolukuna! Kirjoita murtoluku ja sen jälkeen esitä se prosenttilukuna!</hint>
+  </demandhint>
+</problem>

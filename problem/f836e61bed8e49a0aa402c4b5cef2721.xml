@@ -1,0 +1,26 @@
+<problem display_name="Mäen kaltevuus" markdown="null">
+  <p>Joissain jyrkissä ylämäissä saatoit joskus huomata seuraavanlaisen liikennemerkin:</p>
+  <img height="100" src="https://matikka-srl-k21.it.jyu.fi/asset-v1:JYU+MA8-K7+2021K+type@asset+block@Verkehrsschild_Steigung.jpg"/>
+  <p>Tässä ylämäkeä varoittavassa liikennemerkissä prosenttiluku \( 4\ \% \) kuvaa mäen jyrkkyyttä: mäen jyrkkyys on \( \dfrac{4}{100} \) eli jokaisella \( 100 \) "vaakasuoralla" metrillä on nousua \( 4 \) metriä.</p>
+  <p>Mikä on mäen jyrkkyys prosentteina, jos</p>
+  <label>(a) \( 200 \) vaakasuorametrillä on nousua \( 30 \) metriä?</label>
+  <numericalresponse answer="15">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kaltevuus on \( \frac{30 \ \textrm{m}}{200\ \textrm{m}} = \frac{30}{200}^{(2} = \frac{15}{100} = 15\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(b) \( 150 \) vaakasuorametrillä on nousua \( 18 \) metriä?</label>
+  <numericalresponse answer="12">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kaltevuus on \( \frac{18 \ \textrm{m}}{150\ \textrm{m}} = \frac{18}{150}^{(3} = \frac{6}{50} = \mkern-18mu\phantom{\frac{a}{b}}^{2)}\frac{6}{50} = \frac{12}{100} = 12\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(c) \( 500 \) vaakasuorametrillä on nousua \( 500 \) metriä?</label>
+  <numericalresponse answer="100">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kaltevuus on \( \frac{500 \ \textrm{m}}{500\ \textrm{m}} = 1 = 100\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Jos 100 metrin matkalla 4 metrin nousu vastaa \( \frac{4}{100} = 4\ \% \) kaltevuutta, mikä on kaltevuus, jos \( a \) metrin matkalla on \( b \) metrin nousu?</hint>
+    <hint>Ole tarkkana, mikä menee nimittäjään ja mikä osoittajaan.</hint>
+    <hint>Kaltevuus voi miettiä kaavana \( \textrm{kaltevuus} = \frac{\textrm{nousu}}{\textrm{matka}} \)</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,33 @@
+<problem display_name="Yksinkertaisia tilastoja" markdown="null">
+  <p>Vuonna 2021 maaliskuun alussa noin 26 prosenttia todetuista maailman koronavirustapauksista oli Yhdysvalloissa (lähde: <a href="https://www.worldometers.info/coronavirus">Worldometer</a>).</p>
+  <p>Kuinka suuri osa koronavirustapauksista oli silloin muualla maailmalla? Ilmoita tulos</p>
+  <label>(a) prosentteina</label>
+  <numericalresponse answer="74">
+    <formulaequationinput trailing_text="\(\%\)"/>
+  </numericalresponse>
+  <p>(b) murtolukuna (kirjoita muodossa \( a/b \))</p>
+  <customresponse cfn="test_murto" expect="0.74">
+    <textline size="10"/>
+  </customresponse>
+  <script type="loncapa/python">
+def test_murto(expect, ans):
+    try:
+        if '/' not in ans:
+            return {'overall_message': 'Overall message',
+                       'input_list': [
+                             { 'ok': False, 'msg': 'Vastauksen on oltava muodossa \( a/b \).'} ] }
+        a1, a2, *_=ans.split("/")
+        ok = float(a1)/float(a2) == float(expect)
+        return {'overall_message': 'Overall message',
+                       'input_list': [
+  { 'ok': ok, 'msg': 'Oikein!' if ok else 'Eipä mennyt ihan näin, nyt vastauksesi on prosentteina ' + str(float(a1)/float(a2) * 100) + ' %'} ] }
+    except ValueError:
+        return {'overall_message': 'Overall message',
+                       'input_list': [
+                             { 'ok': False, 'msg': 'aaaa'} ] }
+</script>
+  <label>(c) desimaalilukuna.</label>
+  <numericalresponse answer="0.74">
+    <formulaequationinput/>
+  </numericalresponse>
+</problem>

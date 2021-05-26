@@ -1,0 +1,40 @@
+<problem display_name="Osuudet" markdown="null">
+  <p>Montako prosenttia luku 2 on luvusta</p>
+  <label>(a) 4</label>
+  <numericalresponse answer="50">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on 4, eli osuus on \( \frac{2}{4} = \mkern-18mu\phantom{\frac{a}{b}}^{25)}\frac{2}{4} = \frac{50}{100} = 50\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(b) 6</label>
+  <numericalresponse answer="33">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="33.3"/>
+    <additional_answer answer="33.33"/>
+    <additional_answer answer="33.333"/>
+    <additional_answer answer="33.3333"/>
+    <additional_answer answer="33.33333"/>
+    <additional_answer answer="33.333333"/>
+    <correcthint>Perusarvo on 6, eli osuus on \( \frac{2}{6} = \frac{2}{6}^{(2} = \frac{1}{3} = 0.333\ldots \approx 33\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(c) 10</label>
+  <numericalresponse answer="20">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Perusarvo on 10, eli osuus on \( \frac{2}{10} = \mkern-18mu\phantom{\frac{a}{b}}^{10)}\frac{2}{10} = \frac{20}{100} = 20\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(d) 15?</label>
+  <numericalresponse answer="13">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="13.3"/>
+    <additional_answer answer="13.33"/>
+    <additional_answer answer="13.333"/>
+    <additional_answer answer="13.3333"/>
+    <additional_answer answer="13.33333"/>
+    <additional_answer answer="13.333333"/>
+    <correcthint>Perusarvo on 15, eli osuus on \( \frac{2}{15} = 0.1333\ldots \approx 13\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun vastaus on prosenttiluku, lasku on melkein aina jakolasku muotoa \( \frac{\textrm{osa}}{\textrm{perusosa}} \).</hint>
+    <hint>Mikä on tässä perusarvo? Se on luku, josta osuus lasketaan. Entä mikä on osa?</hint>
+    <hint>Kun saat murtoluvun määriteltyä, muuta se prosenttiluvuksi.</hint>
+  </demandhint>
+</problem>

@@ -1,0 +1,24 @@
+<problem display_name="Kultasormus" markdown="null">
+  <p>Kultasormus sisältää \( \dfrac{20}{24} \) puhdasta kultaa.</p>
+  <label>Paljonko kultapitoisuus on prosentteina?</label>
+  <numericalresponse answer="83.16666667">
+    <responseparam type="tolerance" default="0.16666667"/>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>
+    		Supista ensin helpommaksi: \( \frac{20}{24} = \frac{20}{24}^{(4} = \frac{5}{12}. \)
+    	</p>
+        <p>
+    		Sitten jakolaskulla: \( \frac{5}{12} = 0.833333\ldots \approx 83.3\ \% \).
+    	</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tämä on suora murtoluvun muunnostehtävä.</hint>
+    <hint>Voit yrittää laventaa murtoluvun sadasosaksi. Mutta onko se oikeasti nyt helppoa?</hint>
+    <hint>Voit yrittää laskea murtoluku jakolaskuna ja muuntaa saatu desimaaliluku prosenttiluvuksi.</hint>
+    <hint>Jakolaskua voi helpottaa ensin supistamalla murtoluku niin paljon kuin pystyy.</hint>
+  </demandhint>
+</problem>

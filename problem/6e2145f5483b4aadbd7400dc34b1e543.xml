@@ -1,0 +1,19 @@
+<problem display_name="Oppilaat" markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <p>Melissan luokan oppilaista \( \dfrac{21}{25} \) osaa uida ja Sofian luokan oppilaista \( \dfrac{19}{20} \) osaa uida. Ilmoita nämä murtoluvut prosenttilukuina.</p>
+  <label>Melissan luokassa osaa uida</label>
+  <numericalresponse answer="84">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Laventamalla: \( \frac{21}{25} = \mkern-18mu\phantom{\frac{a}{b}}^{4)}\frac{21}{25} = \frac{84}{100} = 84\ \% \).</correcthint>
+  </numericalresponse>
+  <label>Sofian luokassa osaa uida</label>
+  <numericalresponse answer="95">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Laventamalla: \( \frac{19}{20} = \mkern-18mu\phantom{\frac{a}{b}}^{5)}\frac{19}{20} = \frac{95}{100} = 95\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tämä on suora murtolukujen muunnostehtävä.</hint>
+    <hint>Voit yrittää laventaa murtoluku ensin sadasosaksi, josta saat suoraan prosenttiluvun luettua.</hint>
+    <hint>Voit yrittää myös suorittaa jakolaskun (mutta meneeköhän liian vaikeaksi?)</hint>
+  </demandhint>
+</problem>

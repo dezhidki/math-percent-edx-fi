@@ -1,0 +1,12 @@
+<vertical display_name="Tehtävät">
+  <html url_name="d68e87a89d39470d9988aec067315905"/>
+  <html url_name="0cd33e6a3b1740758aa9ac00435a436c"/>
+  <html url_name="489379b08c4a44a3b122c3713e141080"/>
+  <edx_sga url_name="1c890726b77f414cb7ab267442a76284" xblock-family="xblock.v1" display_name="Tehtävän 1 palautuslaatikko" showanswer="never">
+    <solution/>
+  </edx_sga>
+  <html url_name="c3a7cd91e6144748bd9d1cb7e4fcd8c8"/>
+  <edx_sga url_name="00e9c1a46d104a6f947d3a99b93201a5" xblock-family="xblock.v1" display_name="Tehtävän 2 palautuslaatikko" showanswer="never"/>
+  <html url_name="88ab3a6849e84bed87d8b722f34dbb32"/>
+  <edx_sga url_name="1c94502e2ad9439097c91ae9c3a9b58c" xblock-family="xblock.v1" display_name="Tehtävän 3 palautuslaatikko" showanswer="never"/>
+</vertical>

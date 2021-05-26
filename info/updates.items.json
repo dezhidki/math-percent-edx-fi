@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Tervetula!</p>",
+        "date": "February 25, 2021",
+        "id": 1,
+        "status": "deleted"
+    },
+    {
+        "content": "<h1>Tervetuloa!</h1>\n\n<p>\n\tTutustu ensin jakson sis\u00e4lt\u00f6\u00f6n ja Open edX -alustan k\u00e4ytt\u00f6\u00f6n lukemalla l\u00e4pi\n  <a href=\"/courses/course-v1:JYU+MA8-K7+2021K/jump_to_id/ed61186dbba34f70a64d4e86e1ce49d7\">Johdanto</a>\n</p>\n\n<p>\n  Voit sulkea t\u00e4m\u00e4n viestin painamalla ruksia oikeasta yl\u00e4laidasta.\n</p>",
+        "date": "February 25, 2021",
+        "id": 2,
+        "status": "visible"
+    }
+]

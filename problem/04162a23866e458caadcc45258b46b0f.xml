@@ -1,0 +1,22 @@
+<problem display_name="Nopeusmittari" markdown="null">
+  <p>
+Autoilija havaitsi tienvarressa olevasta näyttötaulusta todellisen nopeutensa olevan \( 92\ \textrm{km}/\textrm{h} \), kun
+auton nopeusmittari näytti \( 100\ \textrm{km}/\textrm{h} \).
+</p>
+  <p>
+  Mikä on auton todellinen nopeus, kun nopeusmittari näyttää \( 85\ \textrm{km}/\textrm{h} \)?
+  Nopeusmittarin näytön virheprosentin oletetaan olevan sama kaikilla nopeuksilla. 
+</p>
+  <p style="font-size: 0.8em; text-align: right; margin-top: -1em;">Matematiikan ylioppilaskirjoitukset, syksy 1999</p>
+  <numericalresponse answer="78">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="78.2"/>
+    <correcthint>
+      <p>
+    Auton todellinen nopeus on pienempi kuin mitä nopeusmittari näyttää. Autoilijan havainnon perusteella auton todellisen nopeuden osuus mittarin näyttämästä nopeudesta on \( \frac{92\ \textrm{km}/\textrm{h}}{100\ \textrm{km}/\textrm{h}} = \frac{92}{100} = 92\ \% \).
+    </p>
+      <p>
+      Kun mittari näyttää \( 85\ \textrm{km}/\textrm{h} \), siitä vain \( 92\ \% \) on todellista nopeutta, eli \( 85\ \textrm{km}/\textrm{h} \cdot 92\ \% = 85\ \textrm{km}/\textrm{h} \cdot 0.95 = 78.2\ \textrm{km}/\textrm{h} \).</p>
+    </correcthint>
+  </numericalresponse>
+</problem>

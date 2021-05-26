@@ -1,0 +1,45 @@
+<problem display_name="Kirjoita murtoluvut prosenttilukuina" markdown="null">
+  <p>Tee tehtävä <strong>ilman laskinta</strong>.</p>
+  <numericalresponse answer="4">
+    <label>(a) \( \dfrac{4}{100} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( \frac{4}{100} = 0.04 = 4\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="72">
+    <label>(b) \( \dfrac{72}{100} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( \frac{72}{100} = 0.72 = 72\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="120">
+    <label>(c) \( \dfrac{120}{100} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( \frac{120}{100} = 1.20 = 120\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="20">
+    <label>(d) \( \dfrac{2}{10} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>\( \frac{2}{10} = 0.20 = 20\ \%\)</correcthint>
+  </numericalresponse>
+  <numericalresponse answer="4">
+    <label>(e) \( \dfrac{1}{25} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>
+      <p style="display: inline-table;">Laventamalla sadasosaksi: \( \frac{1}{25} = \mkern-18mu \phantom{\frac{1}{25}}^{4)}\frac{1}{25} = \frac{4}{100} = 4\ \%\)<br/>
+     Suoralla jakolaskulla: \( \frac{1}{25} = 0.04 = 4\ \%\)</p>
+    </correcthint>
+  </numericalresponse>
+  <numericalresponse answer="75">
+    <label>(f) \( \dfrac{3}{4} \)</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>
+      <p style="display: inline-table;">Laventamalla sadasosaksi: \( \frac{3}{4} = \mkern-18mu \phantom{\frac{3}{4}}^{25)}\frac{3}{4} = \frac{75}{100} = 75\ \%\)<br/>
+     Suoralla jakolaskulla: \( \frac{3}{4} = 0.75 = 75\ \%\)</p>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Yksi prosentti on yksi sadasosa, eli \( 1\ \% = \frac{1}{100} \).</hint>
+    <hint>Jos murtoluvun nimittäjässä on 100, prosenttiluku voi lukea suoraan osoittajasta.</hint>
+    <hint>Murtoluku voi yleensä laventaa niin, että sen nimittäjässä on 100, jolloin voi prosenttiluku lukea.</hint>
+    <hint>Murtoluku voi muuttaa desimaaliluvuksi tekemällä jaksolasku ja siitä lukea prosenttiluku niin kuin edellisessä tehtävässä.</hint>
+  </demandhint>
+</problem>

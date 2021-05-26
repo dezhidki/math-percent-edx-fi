@@ -1,0 +1,70 @@
+<problem display_name="Suora muunnos (10 %)" markdown="null">
+  <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+  <p>Paljonko on 10%</p>
+  <label>(a) 320 eurosta</label>
+  <numericalresponse answer="32">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 320\ € \cdot 0.10 = 32\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 320\ € \cdot \frac{10}{100} = \frac{320\ € \cdot 10}{100} = 32\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(b) 70 eurosta</label>
+  <numericalresponse answer="7">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 70\ € \cdot 0.10 = 7\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 70\ € \cdot \frac{10}{100} = \frac{70\ € \cdot 10}{100} = 7\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(c) 10 eurosta</label>
+  <numericalresponse answer="1">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 10\ € \cdot 0.10 = 1\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 10\ € \cdot \frac{10}{100} = \frac{10\ € \cdot 10}{100} = 1\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(d) 53 eurosta</label>
+  <numericalresponse answer="5.3">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 53\ € \cdot 0.10 = 5.3\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 53\ € \cdot \frac{10}{100} = \frac{53\ € \cdot 10}{100} = 5.3\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(e) 2000 eurosta</label>
+  <numericalresponse answer="200">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 2000\ € \cdot 0.10 = 200\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 2000\ € \cdot \frac{10}{100} = \frac{200\ € \cdot 10}{100} = 200\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <label>(f) 345 eurosta</label>
+  <numericalresponse answer="34.5">
+    <formulaequationinput trailing_text="€"/>
+    <correcthint>
+      <div style="display: inline-table;">
+        <p>Desimaalilukuna \( 10\ \% = 0.10 \). Lasku desimaaleina: \( 345\ € \cdot 0.10 = 34.5\ € \).</p>
+        <p>Murtolukuna \( 10\ \% = \frac{10}{100} \). Lasku murtolukuna: \( 345\ € \cdot \frac{10}{100} = \frac{34.5\ € \cdot 10}{100} = 34.5\ € \).</p>
+      </div>
+    </correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Kun pitää laskea \( p\ \% \) jostakin perusarvosta, kerro perusarvo prosenttiluvun prosenttikertoimella (eli desimaaliluvulla tai murtoluvulla).</hint>
+    <hint>Mieti asiaa vaiheittain: Laske ensin \( 1\ \% \) perusarvosta (katso edellinen tehtävä). Sen jälkeen kerro yhtä prosenttia vastaava arvo kymmenellä, jolloin saat \( 10\ \% \)!</hint>
+    <hint>\( 10 % \) on desimaalilukuna \( 0.10 \). Kun perusarvo kerrotaan luvulla \( 0.10 \), ainoastaan pilkku siirtyy yhden askeleen vasemmalle.</hint>
+    <hint>\( 10 % \) on murtolukuna \( \frac{10}{100} \). Kun perusarvo kerrotaan luvulla \( \frac{10}{100} \), voit ensin jakaa luvulla \( 100 )\ ja sitten kertoa luvulla \( 10 \).</hint>
+  </demandhint>
+</problem>

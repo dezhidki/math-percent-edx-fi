@@ -1,0 +1,72 @@
+{
+    "course/2021K": {
+        "advanced_modules": [
+            "edx_sga"
+        ],
+        "allow_anonymous": false,
+        "cert_html_view_enabled": true,
+        "course_image": "Untitled.png",
+        "discussion_topics": {
+            "Yleinen": {
+                "id": "course"
+            }
+        },
+        "display_name": "Prosenttilaskennan perusteet",
+        "edxnotes": true,
+        "graceperiod": "43200 seconds",
+        "instructor_info": {
+            "instructors": []
+        },
+        "invitation_only": true,
+        "language": "fi",
+        "learning_info": [],
+        "minimum_grade_credit": 0.8,
+        "mobile_available": true,
+        "show_calculator": true,
+        "start": "2021-01-01T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Home",
+                "type": "course_info"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Tietosuojaseloste ja tietoja tutkimuksesta",
+                "type": "static_tab",
+                "url_slug": "e3e84c730fea4379a8046486d2159532"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Notes",
+                "type": "edxnotes"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            }
+        ]
+    }
+}

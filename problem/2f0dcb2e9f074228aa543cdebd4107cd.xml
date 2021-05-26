@@ -1,0 +1,12 @@
+<problem display_name="Suurempi luku" markdown="&gt;&gt;Kumpi on suurempi?&lt;&lt;&#10;&#10;Laske tehtävä &lt;strong&gt;ilman laskinta&lt;/strong&gt;.&#10;&#10;( ) \( 25\ \% \) luvusta \( 400 \) {{Murtolukuna \( 25\ \% = \frac{25}{100} = \frac{1}{4} \). Eli \( 400 \cdot \frac{1}{4} = 100 \).}}&#10;(x) \( 12\ \% \) luvusta \( 950 \) {{Murtolukuna \( 12\ \% = \frac{12}{100}^{(2} = \frac{6}{50} \). Eli \( 950 \cdot \frac{6}{50} = 6 \cdot \frac{950}{50} = 6 \cdot 19 = 114 \).}}&#10;">
+  <multiplechoiceresponse>
+    <label>Kumpi on suurempi?</label>
+    <p>Laske tehtävä <strong>ilman laskinta</strong>.</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">\( 25\ \% \) luvusta \( 400 \) <choicehint>Murtolukuna \( 25\ \% = \frac{25}{100} = \frac{1}{4} \). Eli \( 400 \cdot \frac{1}{4} = 100 \).</choicehint>
+</choice>
+      <choice correct="true">\( 12\ \% \) luvusta \( 950 \) <choicehint>Murtolukuna \( 12\ \% = \frac{12}{100}^{(2} = \frac{6}{50} \). Eli \( 950 \cdot \frac{6}{50} = 6 \cdot \frac{950}{50} = 6 \cdot 19 = 114 \).</choicehint>
+</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

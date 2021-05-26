@@ -1,0 +1,12 @@
+<problem display_name="Tilastoja" markdown="null">
+  <numericalresponse answer="20">
+    <p>Vuoden 2007 lopussa Suomessa asui Väestörekisterikeskuksen mukaan noin \( 130000 \) ulkomaalaista. Heistä venäläisiä oli eniten eli noin \( 26000 \).</p>
+    <label>Kuinka monta prosenttia venäläisiä oli tuolloin kaikista ulkomaalaisista?</label>
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Kaikkien ulkomaalaisten lukumäärä on nyt perusarvo, ja  venäläisten lukumäärä osa ulkomaalaisista. Osuus on siis \( \frac{26000}{130000} \). Tämä osuus on prosentteina \( \frac{26000}{130000} = \frac{26}{130}^{(13} = \frac{2}{10} = 20\ \%. \)</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tunnista ensin, kumpiko luvuista on perusarvo (eli kaikkien "asioiden" lukumäärä). Toinen sitten on osa (eli kiinnostavien "asioiden" lukumäärä). Kirjoita osuus murtolukuna.</hint>
+    <hint>Venäläiset ovat osa ulkomaalaisia. Ulkomaalaisten lukumäärä on siis perusarvo.</hint>
+  </demandhint>
+</problem>

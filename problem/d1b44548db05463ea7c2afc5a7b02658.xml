@@ -1,0 +1,12 @@
+<problem display_name="Soittolistahässäkkä" markdown="Nean soittolistalla on \(240\) kappaletta. Niistä on kotimaisia \(45\) prosenttia. Kolmasosa muista kuin kotimaisista on amerikkalaisia ja niistä \(25\ \%\) on rap-musiikkia.&#10;&#10;&gt;&gt;Kuinka monta amerikkalaista rap-kappaletta Nean listalla on?&lt;&lt;&#10;= 11 {{ Muita kuin kotimaisia kappaleita on \( 100\ \% - 45\ \% = 55\ \% \) kaikista kappaleista. Tämä on desimaalilukuna \( 55\ \% = 0.55 \), jolloin kotimaisia kappaleita on \( 240 \cdot 0.55 = 132 \). Siitä kolmasosa on amerikkalaisia eli \( \frac{132}{3} = 44 \) kappaletta. Tästä \( 25\ \% \) on rap-musiikkia eli \( 44 \cdot \frac{25}{100} = 44 \cdot \frac{1}{4} = 11 \) kappaletta. }}&#10;&#10;||Laske asiat vaiheittain: montako kappaletta on muita kuin kotimaisia? Montako kappaletta siitä on amerikkalaisia? Siitä lopuksi voit laskea rap-musiikkikappaleiden lukumäärän.||&#10;||Kolmasosaa ei kannata muuntaa prosenteiksi, sillä se vastaa \( 33.3333\ldots\ \% \), mikä on vaikeaa laskea.||&#10;">
+  <numericalresponse answer="11">
+    <p>Nean soittolistalla on \(240\) kappaletta. Niistä on kotimaisia \(45\) prosenttia. Kolmasosa muista kuin kotimaisista on amerikkalaisia ja niistä \(25\ \%\) on rap-musiikkia.</p>
+    <label>Kuinka monta amerikkalaista rap-kappaletta Nean listalla on?</label>
+    <formulaequationinput/>
+    <correcthint>Muita kuin kotimaisia kappaleita on \( 100\ \% - 45\ \% = 55\ \% \) kaikista kappaleista. Tämä on desimaalilukuna \( 55\ \% = 0.55 \), jolloin kotimaisia kappaleita on \( 240 \cdot 0.55 = 132 \). Siitä kolmasosa on amerikkalaisia eli \( \frac{132}{3} = 44 \) kappaletta. Tästä \( 25\ \% \) on rap-musiikkia eli \( 44 \cdot \frac{25}{100} = 44 \cdot \frac{1}{4} = 11 \) kappaletta.</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Laske asiat vaiheittain: montako kappaletta on muita kuin kotimaisia? Montako kappaletta siitä on amerikkalaisia? Siitä lopuksi voit laskea rap-musiikkikappaleiden lukumäärän.</hint>
+    <hint>Kolmasosaa ei kannata muuntaa prosenteiksi, sillä se vastaa \( 33.3333\ldots\ \% \), mikä on vaikeaa laskea.</hint>
+  </demandhint>
+</problem>

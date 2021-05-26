@@ -1,0 +1,12 @@
+<problem display_name="Verotusta" markdown="null">
+  <p>1880 euron palkasta perittiin veroa 629.8 euroa.</p>
+  <label>Kuinka suuri oli veroprosentti?</label>
+  <numericalresponse answer="33.5">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <correcthint>Palkasta perittiin osa verona. Eli perusarvo on palkka 1880 euroa ja osa on vero 629.8 euroa. Veron osuus koko palkasta on siis \( \frac{629.8\ €}{1880\ €} = \frac{6298}{18800} \). joka on prosentteina \( \frac{6298}{18800} = 0.335 = 33.5\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Taas, mikä on perusarvo ja mikä on osa? Esitä niistä osuus murtolukuna ja muuta se prosenttiluvuksi.</hint>
+    <hint>Veroprosentti pitää ilmoittaa aina tarkasti. Pyörristyksiä ei sallita.</hint>
+  </demandhint>
+</problem>

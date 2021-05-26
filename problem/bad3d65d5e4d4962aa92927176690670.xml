@@ -1,0 +1,51 @@
+<problem display_name="Tarkempia muunnoksia" markdown="null">
+  <p>Montako prosenttia</p>
+  <label>(a) 62 päivää on 530 päivästä</label>
+  <numericalresponse answer="12">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="11.7"/>
+    <additional_answer answer="11.698"/>
+    <additional_answer answer="11.6981"/>
+    <additional_answer answer="11.69811"/>
+    <additional_answer answer="11.698113"/>
+    <correcthint>Perusarvo on 530 päivää. Osuus on täten \( \frac{62}{530} \), joka on prosentteina \( \frac{62}{530} = 0.11698\ldots \approx 12\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(b) 7 ihmistä on 112 ihmisestä</label>
+  <numericalresponse answer="6">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="6.3"/>
+    <additional_answer answer="6.25"/>
+    <correcthint>Perusarvo on 112 ihmistä. Osuus on täten \( \frac{7}{112} \), joka on prosentteina \( \frac{7}{112} = 0.0625 \approx 6.3\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(c) luku 82.25 on luvusta 324.5</label>
+  <numericalresponse answer="25">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="25.3"/>
+    <additional_answer answer="25.34"/>
+    <additional_answer answer="25.347"/>
+    <correcthint>Perusarvo on 324.5. Osuus on täten \( \frac{82.25}{324.5} = \mkern-18mu\phantom{\frac{a}{b}}^{100)}\frac{82.25}{324.5} = \frac{8225}{32450} \), joka on prosentteina \( \frac{8225}{32450} = 0.253466\ldots \approx 25 \% \).</correcthint>
+  </numericalresponse>
+  <label>(d) 11300 puuta on 19130 puusta</label>
+  <numericalresponse answer="59">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="59.1"/>
+    <additional_answer answer="59.0695"/>
+    <additional_answer answer="59.069524"/>
+    <correcthint>Perusarvo on 19130 puuta. Osuus on täten \( \frac{11300}{19130} \), joka on prosentteina \( \frac{11300}{19130} = 0.59069\ldots \approx 59\ \% \).</correcthint>
+  </numericalresponse>
+  <label>(e) 0.012 grammaa on 0.77 grammasta</label>
+  <numericalresponse answer="2">
+    <formulaequationinput trailing_text="\(\%\)"/>
+    <additional_answer answer="1.6"/>
+    <additional_answer answer="1.558"/>
+    <additional_answer answer="1.5584"/>
+    <additional_answer answer="1.55844"/>
+    <additional_answer answer="1.558442"/>
+    <correcthint>Perusarvo on 0.77 grammaa. Osuus on täten \( \frac{0.012}{0.77} = \mkern-18mu\phantom{\frac{a}{b}}^{1000)}\frac{0.012}{0.77} = \frac{12}{770} \), joka on prosentteina \( \frac{12}{770} = 0.01558\ldots \approx 2\ \% \).</correcthint>
+  </numericalresponse>
+  <demandhint>
+    <hint>Tässä kannattaa käyttää laskinta.</hint>
+    <hint>Muista: kun vastaus on prosenttiluku, lasku on melkein aina jakolasku!</hint>
+    <hint>Kun pitää laskea prosenttiluku, lasku on yleensä muotoa \( \frac{\textrm{osa}}{\textrm{perusarvo}} \) ja siitä lasketaan prosenttiluku. Valitse oikea perusarvo!</hint>
+  </demandhint>
+</problem>
